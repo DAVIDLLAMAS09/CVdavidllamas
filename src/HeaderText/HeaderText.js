@@ -19,7 +19,7 @@ export class HeaderText extends Component {
                 <div className="home_barisal" style={{backgroundImage:`url(${icoPrincipal})`}}></div>
                 <div className="container h-100">
                     <div className="row h-100 justify-content-between align-items-center">
-                        <div className="col-12 col-md-6">
+                        <div className="col-12 col-md-6 headerPhone">
                         
                             <div className="welcome_text_area">
                                 <h2 className="wow fadeInUp"  style={{visibility:'visible'}}>¡HOLA! <br></br> Soy<span> David Llamas  </span> <br></br><span> Desarrollador Web Frontend.</span></h2>
