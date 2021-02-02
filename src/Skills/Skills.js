@@ -18,6 +18,7 @@ import seoLogo from '../img/seo.jpg';
 import nodejs from '../img/node-js.jpg'
 // portfolio
 import firebaseAuth from '../img/firebaseAuth.png'
+import bgBeauty from '../img/bg-beauty.png'
 
 
 export class Skills extends Component {
@@ -40,7 +41,8 @@ export class Skills extends Component {
               {image:nodejs, title:'Node js'}
           ],
           portfolio : [
-            { imageUrl : firebaseAuth, title : "Autenticacion con Firebase & React js", field : "Aplicación de autenticacion (cuenta,google,facebook) desarrollada con react js (Hooks) en el front end, firebase (auth,firestore) como backend.", author : "david llamas", date : "9 December, 2020" },
+            { imageUrl : firebaseAuth, title : "Autenticación con Firebase & React js", field : "Aplicación de autenticacion (cuenta,google,facebook) desarrollada con react js (Hooks) en el front end, firebase (auth,firestore) como backend.", author : "david llamas", date : "9 December, 2020",url:"https://github.com/DAVIDLLAMAS09/login-firebase" },
+            { imageUrl : bgBeauty, title : "Landing page 'BG BEAUTY' ", field : "landing page donde muestra productos (REACT JS) y un panel de administración donde se manipula todos los productos (NODE JS - API REST Y FIREBASE).", author : "david llamas", date : "15 January, 2021",url:'https://bg-beauty.herokuapp.com/'}
         ]
            }
        
@@ -85,7 +87,7 @@ export class Skills extends Component {
                                                 <img src={work.imageUrl} className="img-fluid rounded"  alt="portfolio" />
                                                 <div className="overlay-work"></div>
                                                 <div className="content">
-                                                    <a href="https://github.com/DAVIDLLAMAS09/login-firebase" className="title text-white d-block font-weight-bold">{work.title}</a>
+                                                    <a href={work.url} className="title text-white d-block font-weight-bold">{work.title}</a>
                                                     <small className="text-light">{work.field}</small>
                                                 </div>
                                                 <div className="client">

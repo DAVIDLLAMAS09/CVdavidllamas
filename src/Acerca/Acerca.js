@@ -36,11 +36,11 @@ export class Acerca extends Component {
                         <div className="col-md-6">
                             <div className="about-desc">
                                 <p className=" f-15">Me llamo <strong> David Llamas </strong> tengo <strong>28 años</strong> y vivo en la Ciudad de México (CDMX). <br></br> Siempre me ha interesado todo lo relacionado a la tecnología así como Desarrollo de páginas web, desde el primer año de universidad descubrí el mundo web, así que decidí estudiar esta disciplina para terminar especializándome en el <strong>desarrollo de páginas y aplicaciones web</strong>  desde su diseño hasta la implementación.</p>
-                                <p className="f-15">Desde mi primera línea en HTML, código de JS y mi primeros estilos CSS no he dejado de seguir aprendiendo.</p>
-                                <div className="mt-5"><a className="btnAbout btn-custom mr-4" href="/index-1">Ver trabajos</a></div>
+                                <p className="f-15">Desde mi primera línea en HTML, código de JS y mis primeros estilos CSS no he dejado de seguir aprendiendo.</p>
+                                <div className="mt-5"><a className="btnAbout btn-custom mr-4" href="#skills">Ver portafolio</a></div>
                             </div>
                         </div>
-                        <div className="col-md-6 aboutContent">
+                        <div className="col-md-6 aboutContent mt-4">
                             <div className="fondoAbout"></div>
                             <div className="about-img light-img position-relative p-4">
                                 <img src={frontend} alt="" className="img-fluid mx-auto d-block imgAbout" />
