@@ -15,6 +15,7 @@ import mysqlLogo from '../img/mysql.png';
 import phpLogo from '../img/php.png';
 import reactLogo from '../img/react.png';
 import seoLogo from '../img/seo.jpg';
+import nodejs from '../img/node-js.jpg'
 // portfolio
 import firebaseAuth from '../img/firebaseAuth.png'
 
@@ -36,6 +37,7 @@ export class Skills extends Component {
               { image : phpLogo, title : "php" },
               { image : reactLogo, title : "React" },
               { image : seoLogo, title : "Posicionamiento web seo" },
+              {image:nodejs, title:'Node js'}
           ],
           portfolio : [
             { imageUrl : firebaseAuth, title : "Autenticacion con Firebase & React js", field : "Aplicación de autenticacion (cuenta,google,facebook) desarrollada con react js (Hooks) en el front end, firebase (auth,firestore) como backend.", author : "david llamas", date : "9 December, 2020" },
